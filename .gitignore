@@ -5,3 +5,4 @@ thumbnails/*.jpg
 release
 dev_images
 play.js
+npm-debug.log
