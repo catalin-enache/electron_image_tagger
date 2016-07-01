@@ -45,8 +45,8 @@
     ]
   },
   "scripts": {
-    "package-win": "electron-packager . image_tagger --platform=win32 --arch=x64 --out=release --overwrite --ignore=\"^/(.babelrc|.gitignore|database|LICENSE|play|README|TODO)\" --ignore=\"^/(src|dev_images|z_binaries.+|.idea|thumbnails/)\" --ignore=\"^/node_modules/(?!(bluebird|color|color-convert|color-name|color-string|sharp|sqlite3))\"  ",
-    "package-linux": "electron-packager . image_tagger --platform=linux --arch=x64 --out=release --overwrite --ignore=\"^/(.babelrc|.gitignore|database|LICENSE|play|README|TODO)\" --ignore=\"^/(src|dev_images|z_binaries.+|.idea|thumbnails/)\" --ignore=\"^/node_modules/(?!(bluebird|color|color-convert|color-name|color-string|sharp|sqlite3|semver|semver-regex|semver-truncate))\"  ",
+    "package-win": "electron-packager . image_tagger --platform=win32 --arch=x64 --out=release --overwrite --ignore=\"^/(.babelrc|.gitignore|database|LICENSE|play|README|TODO)\" --ignore=\"^/(src|dev_images|z_binaries.+|.idea|thumbnails/)\"   --ignore=\"^/node_modules/(?!(bluebird|color|color-convert|color-name|color-string|sharp|sqlite3|semver|semver-regex|semver-truncate|clone))\"  ",
+    "package-linux": "electron-packager . image_tagger --platform=linux --arch=x64 --out=release --overwrite --ignore=\"^/(.babelrc|.gitignore|database|LICENSE|play|README|TODO)\" --ignore=\"^/(src|dev_images|z_binaries.+|.idea|thumbnails/)\" --ignore=\"^/node_modules/(?!(bluebird|color|color-convert|color-name|color-string|sharp|sqlite3|semver|semver-regex|semver-truncate|clone))\"  ",
     "compile-play": "browserify --extension=.jsx -o _play.js play.js",
     "bundle": "browserify --extension=.jsx -o bundle.js src/main.jsx",
     "run": "electron main.js"
