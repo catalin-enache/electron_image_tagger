@@ -5,7 +5,7 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalin-testenv/electron_image_tagger.git"
+    "url": "git+https://github.com/catalin-enache/electron_image_tagger.git"
   },
   "keywords": [
     "Electron",
@@ -15,9 +15,9 @@
   "author": "Catalin Enache",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/catalin-testenv/electron_image_tagger/issues"
+    "url": "https://github.com/catalin-enache/electron_image_tagger/issues"
   },
-  "homepage": "https://github.com/catalin-testenv/electron_image_tagger",
+  "homepage": "https://github.com/catalin-enache/electron_image_tagger",
   "dependencies": {
     "babel-polyfill": "6.7.4",
     "lodash": "4.11.1",
