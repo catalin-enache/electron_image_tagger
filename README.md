@@ -13,9 +13,9 @@ which helps organizing images on user's computer.
 *  automatically remove images from database when they were removed from their original location
 
 ### App Screenshots
-![Scan images](https://raw.githubusercontent.com/catalin-testenv/electron_image_tagger/master/app_snapshots/1_scan_images.jpg "Scan images")
-![Attach tags to image](https://raw.githubusercontent.com/catalin-testenv/electron_image_tagger/master/app_snapshots/2_attach_tags_to_image.jpg "Attach tags to image")
-![Manage tags](https://raw.githubusercontent.com/catalin-testenv/electron_image_tagger/master/app_snapshots/3_manage_tags.jpg "Manage tags")
-![Filter images](https://raw.githubusercontent.com/catalin-testenv/electron_image_tagger/master/app_snapshots/4_filter_images.jpg "Filter images")
+![Scan images](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/1_scan_images.jpg "Scan images")
+![Attach tags to image](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/2_attach_tags_to_image.jpg "Attach tags to image")
+![Manage tags](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/3_manage_tags.jpg "Manage tags")
+![Filter images](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/4_filter_images.jpg "Filter images")
 
 
