@@ -20,6 +20,7 @@ node-gyp rebuild --target=1.1.2 --arch=ia32 --target_platform=win32 --dist-url=h
 for node_x64:
 node-gyp rebuild --target=1.1.2 --arch=x64  --target_platform=win32 --dist-url=https://atom.io/download/atom-shell
 node-gyp rebuild --target=1.1.2 --arch=x64  --target_platform=linux --dist-url=https://atom.io/download/atom-shell
+node-gyp rebuild --target=1.1.2 --arch=x64  --target_platform=darwin --dist-url=https://atom.io/download/atom-shell
 
 
 Another possible command that only worked before 1.x version was:
