@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Images Tagger</title>
+    <!--<link type="text/css" rel="stylesheet" href="assets/css/debug.css" />-->
+    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-theme.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/styles_and_overrides.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/utils.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="application">
+      </div>
+    </div>
+  </body>
+  <script>
+    require('./bundle')
+    console.log(`We are using node ${ process.versions.node }`)
+    console.log(`Chromium ${ process.versions.chrome } and Electron ${ process.versions.electron }`)
+    console.log(`Arch: ${ process.arch }`)
+  </script>
+</html>

@@ -1,0 +1,12 @@
+
+create help/docs section
+make sure it runs on linux, osx
+make installer
+
+clicking on window should remove the modal
+allow user to rebuild thumb
+try to replace all img usage with canvas (for memory leak reasons)
+allow external hd usability
+allow reuse same db on multiple machines ; make possible db export
+make shell integration ... ?
+unittests ?

@@ -1,0 +1,5 @@
+Move sharp.node to corresponding dir in node_modules/sharp
+Existing sharp.node in that directory will have to be replaced.
+sharp.node binary is compiled for electron v1.1.2 - node_x64
+
+... sharp module only supports x64 node arch

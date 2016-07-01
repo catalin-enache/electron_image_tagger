@@ -1,0 +1,64 @@
+html {
+    -webkit-user-select: none;
+    user-select: none;
+    height: 101%;
+}
+.btn:active, .btn:visited, .btn:focus {
+    outline: none !important;
+}
+
+.img-thumbnail:hover {
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    border-color: #ccc;
+}
+
+.imageIconsContainer {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+}
+
+.imageIconsContainer > span {
+    color: #ccc;
+}
+
+.imageIconsContainer > span:hover {
+    color: #fff;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+}
+
+.list-group-item .badge, .panel-default > .panel-heading .badge {
+    cursor: default;
+    background-color: #777;
+    color: #fff;
+}
+
+.list-group-item .glyphicon {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    top: 2px;
+    cursor: pointer;
+    color: #777;
+}
+
+.list-group-item .glyphicon:hover {
+    color: black;
+}
+
+.modal-header {
+    background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-color: #ddd;
+}
+
+
+
+
+

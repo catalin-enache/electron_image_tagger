@@ -1,0 +1,7 @@
+node_modules
+.idea
+database.sql
+thumbnails/*.jpg
+release
+dev_images
+play.js

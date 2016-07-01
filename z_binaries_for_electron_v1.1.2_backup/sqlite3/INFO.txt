@@ -1,0 +1,28 @@
+!Instructions here are not needed for distribution, only for development!
+
+For Windows ...
+
+Move electron-v1.1-win32-ia32 folder to:
+path\to\electron_image_tagger\node_modules\sqlite3\lib\binding
+so it should stay near node-v48-win32-ia32 directory inside lib\binding
+
+The sqlite3 compilation finally succeeded after hardcoding module_path & module_name in sqlite3/binding.gyp
+Without this hardcoding it used to complain that module_path and module_name are not defined.
+
+After compilation the directory and the file inside were renamed 
+to match the path that electron was looking for:
+module.js:440 Uncaught Error: Cannot find module 'C:\MyGitProjects\electron_image_tagger\node_modules\sqlite3\lib\binding\electron-v1.1-win32-ia32\node_sqlite3.node'                                      
+
+The compilation command was:
+path\to\electron_image_tagger\node_modules\sqlite3>
+for node_ia32:
+node-gyp rebuild --target=1.1.2 --arch=ia32 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell
+for node_x64:
+node-gyp rebuild --target=1.1.2 --arch=x64  --target_platform=win32 --dist-url=https://atom.io/download/atom-shell
+node-gyp rebuild --target=1.1.2 --arch=x64  --target_platform=linux --dist-url=https://atom.io/download/atom-shell
+
+
+Another possible command that only worked before 1.x version was:
+electron-rebuild -w sqlite3 -p
+
+Current node_sqlite3.node binary was built against electron v1.1.2
