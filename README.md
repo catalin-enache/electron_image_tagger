@@ -13,8 +13,8 @@ which helps organizing images on user's computer.
 *  automatically remove images from database when they were removed from their original location
 
 ### Downloads
-[Image Tagger MacOSX](https://www.dropbox.com/s/5fqre6wjjj145ya/image_tagger-darwin-x64.zip?dl=0)
-[Image Tagger Windows](https://www.dropbox.com/s/p5i03m77z6ut84b/image_tagger-win32-x64.zip?dl=0)
+[Image_Tagger_MacOSX](https://www.dropbox.com/s/5fqre6wjjj145ya/image_tagger-darwin-x64.zip?dl=0) |
+[Image_Tagger_Windows](https://www.dropbox.com/s/p5i03m77z6ut84b/image_tagger-win32-x64.zip?dl=0)
 
 ### App Screenshots
 ![Scan images](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/1_scan_images.jpg "Scan images")
