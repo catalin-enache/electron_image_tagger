@@ -14,7 +14,7 @@ which helps organizing images on user's computer.
 
 ### Downloads
 [Image_Tagger_MacOSX](https://www.dropbox.com/s/5fqre6wjjj145ya/image_tagger-darwin-x64.zip?dl=0) |
-[Image_Tagger_Windows](https://www.dropbox.com/s/p5i03m77z6ut84b/image_tagger-win32-x64.zip?dl=0)
+[Image_Tagger_Windows](https://www.dropbox.com/s/p5i03m77z6ut84b/image_tagger-win32-x64.zip?dl=0) |
 [Image_Tagger_Linux](https://www.dropbox.com/s/voi91mzpg38oug4/image_tagger-linux-x64.zip?dl=0)
 
 ### App Screenshots
