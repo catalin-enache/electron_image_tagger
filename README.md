@@ -18,8 +18,8 @@ which helps organizing images on user's computer.
 [Image_Tagger_Linux](https://www.dropbox.com/s/voi91mzpg38oug4/image_tagger-linux-x64.zip?dl=0)
 
 #### Note:
-MacOSX package requires libvips being already installed:
-brew install homebrew/science/vips
+MacOSX package requires *libvips* being already installed:
+*brew install homebrew/science/vips*
 
 
 ### App Screenshots
