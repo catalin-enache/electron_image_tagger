@@ -1,6 +1,5 @@
 
 create help/docs section
-make sure it runs on linux, osx
 make installer
 
 clicking on window should remove the modal
