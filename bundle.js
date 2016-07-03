@@ -14524,8 +14524,15 @@ utils.intFromLE = intFromLE;
 module.exports={
   "_args": [
     [
-      "elliptic@^6.0.0",
-      "c:\\MyGitProjects\\electron_image_tagger\\node_modules\\browserify-sign"
+      {
+        "name": "elliptic",
+        "raw": "elliptic@^6.0.0",
+        "rawSpec": "^6.0.0",
+        "scope": null,
+        "spec": ">=6.0.0 <7.0.0",
+        "type": "range"
+      },
+      "/home/catalin/my_git_projects/electron_image_tagger/node_modules/browserify-sign"
     ]
   ],
   "_from": "elliptic@>=6.0.0 <7.0.0",
@@ -14560,7 +14567,7 @@ module.exports={
   "_shasum": "17781f2109ab0ec686b146bdcff5d2e8c6aeceda",
   "_shrinkwrap": null,
   "_spec": "elliptic@^6.0.0",
-  "_where": "c:\\MyGitProjects\\electron_image_tagger\\node_modules\\browserify-sign",
+  "_where": "/home/catalin/my_git_projects/electron_image_tagger/node_modules/browserify-sign",
   "author": {
     "email": "fedor@indutny.com",
     "name": "Fedor Indutny"
