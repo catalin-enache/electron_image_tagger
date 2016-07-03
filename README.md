@@ -17,6 +17,11 @@ which helps organizing images on user's computer.
 [Image_Tagger_Windows](https://www.dropbox.com/s/p5i03m77z6ut84b/image_tagger-win32-x64.zip?dl=0) |
 [Image_Tagger_Linux](https://www.dropbox.com/s/voi91mzpg38oug4/image_tagger-linux-x64.zip?dl=0)
 
+## Note:
+MacOSX package requires libvips being already installed:
+brew install homebrew/science/vips
+
+
 ### App Screenshots
 ![Scan images](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/1_scan_images.jpg "Scan images")
 ![Attach tags to image](https://raw.githubusercontent.com/catalin-enache/electron_image_tagger/master/app_snapshots/2_attach_tags_to_image.jpg "Attach tags to image")
